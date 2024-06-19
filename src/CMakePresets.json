@@ -1,0 +1,14 @@
+{
+  "version": 6,
+  "configurePresets": [
+    {
+      "name": "HabrPresetName",
+      "displayName": "GoodPreset",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/../build",
+      "cacheVariables": {
+      	"CMAKE_CXX_FLAGS": "-Wno-packed-bitfield-compat"
+      }
+    }
+  ]
+}
